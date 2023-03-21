@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- bean definitions here -->
+<bean id="name" class="USTBatchNo3.di_constructor_injection.roles">
+	<constructor-arg name="char_name" value="Abu" type="java.lang.String"></constructor-arg>
+	<constructor-arg name="responsibility" value="FSD"></constructor-arg>
+</bean>
+
+</beans>
+
